@@ -1,0 +1,91 @@
+/* 
+	div id = #
+	div class = .
+use @import for google fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Neuton:wght@300&display=swap');
+/*font-family: 'Neuton', serif;*/
+/*font-family: 'Hammersmith One', sans-serif;*/
+
+html
+{
+background-color: #a6a6a6;
+}
+
+body
+{
+padding: 0 1.75rem;
+margin: 0 auto;
+}
+
+main
+{
+max-width: 1000px;
+margin: auto;
+}
+
+img
+{
+display: block;
+height: auto;
+max-width: 100%;
+min-width:calc(320px - 2rem);
+margin: 0 auto;
+}
+
+header h1
+{
+font-family: 'Hammersmith One', sans-serif;
+font-size: 25px;
+color: black;
+text-align: center;
+}
+
+.text p
+{
+font-family: 'Neuton', serif;
+font-size: 17px;
+color: black;
+}
+
+#learnmore a
+{
+font-family: 'Neuton', serif;
+font-size: 17px;
+color: black;
+margin: 0 auto;
+padding: 0 1rem 1rem 0;
+}
+
+@media (min-width: 320px)
+
+img
+{
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+@media (min-width: 850px)
+
+.text
+{
+max-width: 847px;
+margin: auto;
+}
+
+header h1
+{
+font-size: 45px;
+}
+
+.text p
+{
+font-size:23px;
+}
+
+#learnmore a
+{
+font-size: 23px;
+}
